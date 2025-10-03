@@ -1,0 +1,35 @@
+[
+  {
+    "code": 200,
+    "data": {
+      "button_list": [
+        {
+          "current": false,
+          "id": 1116,
+          "name": "崭新出厂",
+          "switch": false
+        },
+        {
+          "current": true,
+          "id": 1117,
+          "name": "略有磨损",
+          "switch": false
+        }
+      ],
+      "container": [
+        {
+          "comment": "绝版",
+          "created_at": "2013-08-14T00:00:00",
+          "id": 74,
+          "name": "仓库突击收藏品",
+          "price": null,
+          "url": "https://g.fp.ps.netease.com/market/file/5e90349c8b74274d17162298Y0u3OSzA02",
+          "roi": 0.0
+        }
+      ],
+      "dpl": [],
+      "goods_info": {
+        "id": 1117,
+        "turnover_number": 0,
+        "turnover_avg_price": 0.0,
+        "period_at": 

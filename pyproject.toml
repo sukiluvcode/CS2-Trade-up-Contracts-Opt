@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "cs2"
+version = "0.1.0"
+description = ""
+authors = ["sukiluvcode <luvusoike@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydantic = "^2.11.9"
+pandas = "^2.3.2"
+numpy = "^2.3.3"
+scikit-learn = "^1.7.2"
+matplotlib = "^3.10.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
