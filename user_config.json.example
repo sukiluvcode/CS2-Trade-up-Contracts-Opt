@@ -1,0 +1,4 @@
+{
+  "USER_DATA_DIR": "/just/create/a/dir",
+  "OUTPUT_FILE": "scraped_data.jsonl"
+}
