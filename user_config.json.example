@@ -1,4 +1,4 @@
 {
-  "USER_DATA_DIR": "/just/create/a/dir",
+  "USER_DATA_DIR": "/just/create/a/dir/for/storing/search/engine/data",
   "OUTPUT_FILE": "scraped_data.jsonl"
 }

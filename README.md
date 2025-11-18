@@ -1,7 +1,29 @@
-该项目旨在优化 CS2 的合成合同。
+# CS2 Trade-up Contracts Optimizer
 
-## 文件结构
+优化汰换合同  
+A small Python project for analyzing and optimizing CS2 trade-up contracts. This repository contains data, scrapers, utilities, and optimization code used to evaluate and search for desirable trade-up outcomes.
 
-- `/data` — 用于存储数据
-- `/recipe_optimize` — 代码实现
-- `/relevants` — 与 CS2 相关的其他内容
+## Key Features
+
+- Data ingestion and simple scrapers for building datasets.
+- Optimization utilities (genetic algorithm fitness, helpers) in `src/cs2/optimize`.
+- Notebooks for inspecting data and exploratory analysis in `notebooks/`.
+
+## File structure
+
+Below is the repository layout and a short description for key files and folders:
+
+```
+├─ README.md                       # This file
+├─ pyproject.toml                   # Python project metadata and dependencies
+├─ data/                            # Raw and processed data
+├─ notebooks/                       # Jupyter notebooks for exploration
+├─ src/
+│  └─ cs2/
+│     ├─ config.py                  # Crawler configuration and constants
+│     ├─ data_model/
+│     ├─ optimize/                  # Optimization implementation
+│     └─ scrape/
+└─ tests/                           # Unit/integration tests
+
+```

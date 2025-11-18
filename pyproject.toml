@@ -15,6 +15,7 @@ matplotlib = "^3.10.6"
 requests = "^2.32.5"
 playwright = "^1.56.0"
 tqdm = "^4.67.1"
+dotenv = "^0.9.9"
 
 
 [build-system]

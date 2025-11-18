@@ -3,7 +3,7 @@ import re
 from pydantic import BaseModel
 
 from cs2.data_model.response_model import Info
-from docs.cs2_terms import wear_value, value_to_wear
+from cs2.scrape.cs2_terms import wear_value, value_to_wear
 
 
 class Item(Info):

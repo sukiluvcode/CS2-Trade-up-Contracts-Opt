@@ -1,4 +1,4 @@
-# use this to logging your accout!
+# 手动登入悠悠有品账号
 import time
 from cs2.config import USER_DATA_DIR
 from playwright.sync_api import sync_playwright
